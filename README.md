@@ -94,9 +94,10 @@ all actors have been released from duty.
 # Missing
 
 1. A lot!
-2. `ca_broadcast()` to send a message to all available actors
+2. Arguments! Currently, actors cannot be passed arbitrary arguments. Tsk tsk.
+3. `ca_broadcast()` to send a message to all available actors
 
-Number 2 is tricky to implement: all actors known at the time the message was sent
+Number 3 is tricky to implement: all actors known at the time the message was sent
 need to act upon that message.
 
 Note: "known" not "up."
